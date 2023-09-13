@@ -1,0 +1,133 @@
+.placeholder{
+    color: #0A2D72;
+    margin-top: 2%;
+}
+.container{
+    background-image: url("../../img/Page3/correo.jpg");
+    background-position: top center;
+    background-size: cover;
+ 
+    position:relative;
+    z-index: 1;
+}
+.boton{
+    margin-left: 25%;
+    font-size: 25px;
+    width: 14%;
+}
+.menu{
+    width: 80%;
+    height: 100px;
+    margin-left: 12%;
+}
+.footer{
+    margin-top: 1%;
+    width: 80%;
+    margin-left: 12%;
+}
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0A2D72;
+    margin-left: 40%;
+}
+h3{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0A2D72;
+}
+h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0A2D72;
+}
+
+.p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 19px;
+}
+
+.botones{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.adelante{
+  position: absolute;
+  top: 30%;
+  transform: translateY(-60%);
+  margin-left: 41%;
+  font-size: 270%;
+  color: #0A2D72;
+  border: #fff;
+}
+
+.atras{
+  position: absolute;
+  top: 30%;
+  transform: translateY(-90%);
+  font-size: 270%;
+  color: #0A2D72;
+  margin-right: 85%;
+}
+.alert{
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 55%;
+  margin-left: 23%;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+div#imagen {
+    width: 355px;
+    height: 350px;
+    background-size: cover;
+    background-image: url("../../img/Page3/outlook.png");
+    margin: 35px auto;
+    margin-top: 2%;
+    margin-left: 82%;
+  }
+  
+  div#info {
+    position:absolute;
+    overflow:hidden;
+    width: 410px;
+    height: 389px;
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity:0;
+    transition: opacity 0.3s;
+  }
+  
+  div#imagen:hover div#info {
+    opacity:1;
+  }
+  
+  p#headline {
+    position: absolute;
+    font-size: 1.5rem;
+    margin-left: -75px;
+    margin-top: 15px;
+    transition: margin-left 0.3s;
+  }
+  
+  div#imagen:hover p#headline {
+    margin-left: 10px;
+  }
+  
+  p#descripcion {
+    text-align: center;
+    margin-top: 100px;
+    transition: margin-top 0.4s;
+    background: #d4dbff;
+    font-size: 29px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  div#imagen:hover p#descripcion {
+    margin-top: 70px;
+  }
+  
+  .info2{
+    text-align: center;
+    font-size: 18px;
+  }

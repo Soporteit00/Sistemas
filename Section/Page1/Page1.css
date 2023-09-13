@@ -1,0 +1,81 @@
+
+.placeholder{
+    color: #07245f;
+    margin-top: 2%;
+}
+.container{
+    background-image: url("../../img/Page1/18146.jpg");
+    background-position: top center;
+    background-size: contain;
+    background-attachment: fixed;
+    position:relative;
+    z-index: 1;
+    width: 75%;
+}
+.menu{
+    width: 75%;
+    height: 100px;
+    margin-left: 12%;
+}
+.footer{
+    width: 75%;
+    margin-left: 12%;
+}
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0A2D72;
+    margin-left: 8%;
+}
+h3{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0A2D72;
+}
+h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0A2D72;
+}
+
+.card{
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 85%;
+    font-size: 28px;
+    margin-top: 5%;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.adelante{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-90%);
+    margin-left: 40%;
+    font-size: 270%;
+    color: #0A2D72;
+    border: #fff;
+}
+.atras{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-90%);
+    font-size: 270%;
+    color: #0A2D72;
+    margin-right: 85%;
+}
+
+.alert{
+    font-size: 22px;
+    text-align: center;
+    width: 55%;
+    margin-left: 25%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.botones2{
+    margin-top: 10%;
+    margin-left: 30%;
+}

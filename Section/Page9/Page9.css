@@ -1,0 +1,65 @@
+.placeholder{
+    color: #f9b515;
+    margin-top: 2%;
+}
+.container{
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    position:relative;
+    z-index: 1;
+}
+.boton{
+    margin-left: 25%;
+    font-size: 25px;
+    width: 14%;
+}
+.menu{
+    width: 75%;
+    height: 100px;
+    margin-left: 12%;
+}
+.footer{
+    margin-top: 1%;
+    width: 75%;
+    margin-left: 12%;
+}
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0A2D72;
+    margin-left: 25%;
+}
+h3{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0A2D72;
+}
+h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0A2D72;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.adelante{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-60%);
+    margin-left: 41%;
+    font-size: 270%;
+    color: #0A2D72;
+    border: #fff;
+  }
+  
+  .atras{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-90%);
+    font-size: 270%;
+    color: #0A2D72;
+    margin-right: 85%;
+  }

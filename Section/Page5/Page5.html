@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Page5.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <title>Inducción area de TI</title>
+  </head>
+  <body>
+    <div class="menu">
+      <p class="placeholder-glow">
+        <span class="placeholder col-12"></span>
+      </p>
+    </div>
+    <div class="container">
+      <div class="alert bi bi-info-square-fill"  role="alert" style="background-color: #f9b515;">
+        Toca el logo de outlook para leer la información.
+       </div>
+       <br><br><br><br>
+      <h2>Correo electronico.</h2>
+      <div id="imagen">
+        <div id="info">
+          <p id="descripcion">
+            Ingresamos a la pagina WEB de Outlook Colocamos el usuario y la
+            contraseña asignados en el formato, una vez iniciemos nos solicitara
+            cambio de contraseña, el cual debe realizarse con los parámetros de:
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p class="footer placeholder-wave">
+        <span class="placeholder col-12"></span>
+      </p>
+    </footer>
+
+
+    <div class="botones">
+      <a
+        class="atras bi bi-chevron-double-left"
+        href="../../Section/Page4/Page4.html"
+      ></a>
+      <a
+        href="../../Section/Page6/Page6.html"
+      ><button  class="adelante bi bi-chevron-double-right" id="avanzarBtn" disabled></button></a>
+  </div>
+
+  <script>
+    const imagen = document.getElementById("imagen");
+    const avanzarBtn = document.getElementById("avanzarBtn");
+  
+    imagen.addEventListener("mouseover", function() {
+        avanzarBtn.disabled = false;
+    });
+  
+    imagen.addEventListener("onmouseover", function() {
+        avanzarBtn.disabled = true;
+    });
+  </script>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
