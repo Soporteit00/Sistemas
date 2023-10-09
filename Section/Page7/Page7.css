@@ -53,7 +53,7 @@ h4{
 }
 .adelante{
   position: absolute;
-  top: 30%;
+  top: 40%;
   transform: translateY(-60%);
   margin-left: 41%;
   font-size: 270%;
@@ -63,7 +63,7 @@ h4{
 
 .atras{
   position: absolute;
-  top: 30%;
+  top: 40%;
   transform: translateY(-90%);
   font-size: 270%;
   color: #0A2D72;
@@ -146,3 +146,19 @@ h4{
     top: 80px;
   }
   
+  .card{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width:330px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #0a7007;
+    border-radius:15px;
+    margin-left: 20%;
+}
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 22px;
+}

@@ -30,15 +30,18 @@
       </p>
     </div>
 
+
     <div class="container">
+      <br>
       <div class="alert bi bi-info-square-fill"  role="alert" style="background-color: #f9b515;">
         Toca los botones para leer la información.
        </div>
+
       <div class="row justify-content-center">
       <div class="col">
-      <p class="botones2 d-inline-flex gap-1">
-          <a class="btn btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-controls="multiCollapseExample1">Asignación de usuario.</a>
-          <button class="btneA btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2" id="boton">Formato de asignación de usuarios.</button>
+      <p class="btns d-inline-flex gap-1">
+          <a class="botones2 btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-controls="multiCollapseExample1">Asignación de usuario.</a>
+          <button class="botones2 btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2" id="boton">Formato de asignación de usuarios.</button>
         </p>
 
         <div class="row">
@@ -77,26 +80,14 @@
     <div class="botones">
       <a
         class="atras bi bi-chevron-double-left"
-        href="../../index.html"
+        href="../../Section/Page1/presentacion.html"
       ></a>
       <a
         href="../../Section/Page2/Page2.html"
       ><button  class="adelante bi bi-chevron-double-right" id="avanzarBtn" disabled></button></a>
   </div>
-
-  <script>
-    const boton = document.getElementById("boton");
-    const avanzarBtn = document.getElementById("avanzarBtn");
   
-    boton.addEventListener("mouseover", function() {
-        avanzarBtn.disabled = false;
-    });
-  
-    boton.addEventListener("onmouseover", function() {
-        avanzarBtn.disabled = true;
-    });
-  </script>
-  
+  <script src="./Page1.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"

@@ -4,7 +4,7 @@
     margin-top: 2%;
 }
 .container{
-    background-image: url("../../img/Page1/18146.jpg");
+    background-image: url("../../img/Page1/Page2.jpg");
     background-position: top center;
     background-size: contain;
     background-attachment: fixed;
@@ -21,10 +21,10 @@
     width: 75%;
     margin-left: 12%;
 }
-h2{
+.h2{
     font-family: 'Roboto Condensed', sans-serif;
     color: #0A2D72;
-    margin-left: 8%;
+    text-align: center;
 }
 h3{
     text-align: center;
@@ -40,7 +40,7 @@ h4{
     font-family: 'Roboto Condensed', sans-serif;
     width: 85%;
     font-size: 28px;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 .botones{
@@ -51,7 +51,7 @@ h4{
 
 .adelante{
     position: absolute;
-    top: 30%;
+    top: 40%;
     transform: translateY(-90%);
     margin-left: 40%;
     font-size: 270%;
@@ -60,7 +60,7 @@ h4{
 }
 .atras{
     position: absolute;
-    top: 30%;
+    top: 40%;
     transform: translateY(-90%);
     font-size: 270%;
     color: #0A2D72;
@@ -75,7 +75,77 @@ h4{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.botones2{
+
+.botones2 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0A2D72;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+  }
+  
+  .botones2:hover {
+    background-color: #fff;
+    color: #f9b515;
+    border: 2px solid #f9b515;
+    box-shadow: 5px 5px 0px #f9b515;
+  }
+  
+  .botones2:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+  
+
+  .btns{
     margin-top: 10%;
-    margin-left: 30%;
+    margin-left: 20%;
+  }
+
+  .titulo{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  
+.card{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width:330px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #a4c3ff;
+    border-radius:15px;
+    margin-left: 20%;
 }
+
+.card-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 26px;
+}
+
+
+.img1{
+   margin-left: 5%;
+}
+
+.presentacion{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-90%);
+    margin-left: 81%;
+    font-size: 270%;
+    color: #0A2D72;
+    border: #fff;
+}
+

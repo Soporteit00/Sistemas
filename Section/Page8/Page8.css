@@ -49,7 +49,7 @@ h4{
 
 .adelante{
   position: absolute;
-  top: 30%;
+  top: 40%;
   transform: translateY(-60%);
   margin-left: 41%;
   font-size: 270%;
@@ -59,7 +59,7 @@ h4{
 
 .atras{
   position: absolute;
-  top: 30%;
+  top: 40%;
   transform: translateY(-90%);
   font-size: 270%;
   color: #0A2D72;

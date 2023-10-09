@@ -27,25 +27,28 @@
     <title>Inducción area de TI</title>
   </head>
   <body>
+
     <div class="menu">
       <p class="placeholder-glow">
         <span class="placeholder col-12"></span>
       </p>
     </div>
-    <div class="container">
+
+    <div class="container"><br>
       <div class="alert bi bi-info-square-fill"  role="alert" style="background-color: #f9b515;">
         Toca el logo de Planner para leer la información.
-       </div>
+       </div> 
         <div class="row justify-content-center">
         <div class="col-6">
             <br><br><br><br><br><br>
-            <br><br><br><br><br><br>
             <img src="../../img/Page7/MicrosoftPlanner.png" alt="">
+            <div class="card">
+              <p>La mayoría de las áreas utilizan esta herramienta para controlar las tareas, tambien se usa para etiquetar en los Planner donde un colaborador tenga injerencia. </p>
+            </div>
 
         </div>
         
         <div class="col-6">
-            <br><br><br><br>
 <figure class="snip1361" id="planner">
 
   <img src="../../img/Page7/planner-icon.png" alt="sample45" />
@@ -84,26 +87,9 @@
       ><button  class="adelante bi bi-chevron-double-right" id="avanzarBtn" disabled></button></a>
   </div>
 
-    <script>
-        $(".hover").mouseleave(
-  function () {
-    $(this).removeClass("hover");
-  }
-);
-    </script>
+    <script src="./Page7.js"></script>
 
-<script>
-  const planner = document.getElementById("planner");
-  const avanzarBtn = document.getElementById("avanzarBtn");
 
-  planner.addEventListener("mouseover", function() {
-      avanzarBtn.disabled = false;
-  });
-
-  planner.addEventListener("onmouseover", function() {
-      avanzarBtn.disabled = true;
-  });
-</script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"

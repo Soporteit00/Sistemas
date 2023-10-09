@@ -70,7 +70,7 @@ p{
 
 .adelante{
     position: absolute;
-    top: 30%;
+    top: 40%;
     transform: translateY(-60%);
     margin-left: 85%;
     font-size: 270%;
@@ -80,7 +80,7 @@ p{
   
   .atras{
     position: absolute;
-    top: 30%;
+    top: 40%;
     transform: translateY(-90%);
     font-size: 270%;
     color: #0A2D72;
